@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaPhone } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -26,6 +26,14 @@ const Footer = () => {
           <MagicButton
             title="Let&apos;s get in touch"
             icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
+         {/* Add a contact button with a phone icon */}
+        <a href="tel:+1234567890">
+          <MagicButton
+            title="Call Me"
+            icon={<FaPhone />} // Use the phone icon
             position="right"
           />
         </a>
