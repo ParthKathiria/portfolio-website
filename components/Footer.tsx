@@ -30,7 +30,7 @@ const Footer = () => {
           />
         </a>
          {/* Add a contact button with a phone icon */}
-        <a href="tel:+1234567890">
+        <a href="tel:+15488814977">
           <MagicButton
             title="Call Me"
             icon={<FaPhone />} // Use the phone icon
