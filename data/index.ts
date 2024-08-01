@@ -142,7 +142,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineer Fellow - headstarter AI",
+    title: "Software Engineer Fellow - Headstarter AI",
     desc: "Built 5+ AI apps and APIs using NextJS, openAI,Pinecone, stripe API with 98% accuracy as seen by 1000+ users",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/headstarter1.svg",
