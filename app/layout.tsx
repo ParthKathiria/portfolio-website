@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,10 @@ export default function RootLayout({
       <head>
         {googleTagId && (
           <>
-            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`} />
+            <Script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}
+            />
             <Script id="google-analytics">
               {`
                 window.dataLayer = window.dataLayer || [];
@@ -45,6 +49,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
