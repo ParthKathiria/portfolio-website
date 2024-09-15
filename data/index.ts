@@ -100,7 +100,7 @@ export const projects = [
       "/redux.svg",
       "/nodejs.svg",
     ],
-    link: "",
+    link: "https://github.com/ParthKathiria/inventory-management",
   },
   {
     id: 4,
