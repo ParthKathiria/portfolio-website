@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  {name: "Experience", link: "#experience"},
+  { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Committed to staying up-to-date with the latest technologies and trends",
+    title:
+      "Committed to staying up-to-date with the latest technologies and trends",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -83,17 +84,23 @@ export const projects = [
     title: "Football Analysis System",
     des: "Detect and track ball, players, their speed and distance covered",
     img: "/football.jpg",
-    iconLists: ["/python.svg", "/yolo.svg", "/opencv.svg", "/pandas.svg",],
+    iconLists: ["/python.svg", "/yolo.svg", "/opencv.svg", "/pandas.svg"],
     link: "https://github.com/ParthKathiria/football-analysis",
   },
   {
     id: 3,
-    title: "AI app",
-    des: "Coming soon hopefully...",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Inventory Management App",
+    des: "Offering a comprehensive solution for businesses by tracking products, expenses, sales, rating and more.  ",
+    img: "/invapp.svg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/react.svg",
+      "/redux.svg",
+      "/nodejs.svg",
+    ],
     link: "",
-    
   },
   {
     id: 4,
